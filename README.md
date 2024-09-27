@@ -1,5 +1,7 @@
 # QA-system
-QA system based on sberquad database
+QA system based on sberquad database.
+
+To load the docker image, just execute the following commands specifying the env file with TELEGRAM_TOKEN:
 ```bash
   docker pull abulkair/my_telegram_bot
   docker run --env-file .env -it my_telegram_bot
